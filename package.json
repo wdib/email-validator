@@ -1,0 +1,21 @@
+{
+  "name"         : "email-validator",
+  "version"      : "0.1.0",
+  "description"  : "Email address validation tool that detects temporary, misspelled, or invalid addresses.",
+  "main"         : "app.js",
+  "scripts"      : {
+    "start" : "DEBUG=app,routes,request,validator node app.js"
+  },
+  "author"       : "William Dib",
+  "license"      : "ISC",
+  "dependencies" : {
+    "body-parser"    : "1.15.x",
+    "debug"          : "4.3.1",
+    "errorhandler"   : "1.4.x",
+    "express"        : "4.17.x",
+    "mailcheck"      : "1.1.x",
+    "morgan"         : "1.7.x",
+    "serve-static"   : "1.11.x",
+    "supports-color" : "8.1.1"
+  }
+}
